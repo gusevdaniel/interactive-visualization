@@ -110,11 +110,13 @@ def prepare_data(source, results, ftp_1, ftp_2):
 
 
 if __name__ == '__main__':
-    source_folderpath = 'C:\\my-data\\EN_RU_15K\\EN_RU_15K_V1\\'
-    results_folderpath = 'C:\\my-data\\output\\multike\\20210809104150\\'  # MultiKE results #Word2Vec EN-RU
     in_types_1 = 'C:\\my-data\\instance_types\\instance_types_en.ttl'
     in_types_2 = 'C:\\my-data\\instance_types\\instance_types_ru.ttl'
-    data_filename = 'MultiKE_Word2Vec_EN_RU'
+
+    source_folderpath = 'C:\\my-data\\EN_RU_15K\\EN_RU_15K_V1\\'
+
+    results_folderpath = 'C:\\my-data\\output\\results\\RDGCN\\EN_RU_15K_V1\\631\\20220131082250\\'
+    data_filename = 'RDGCN_EN_RU_15K_V1_translated'
 
     df = prepare_data(source_folderpath, results_folderpath, in_types_1, in_types_2)
 

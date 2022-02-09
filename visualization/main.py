@@ -12,7 +12,7 @@ from bokeh.models.callbacks import CustomJS
 
 # Load data
 folder = 'data\\'
-filename = 'MultiKE_Word2Vec_EN_RU.csv'
+filename = 'RDGCN_EN_RU_15K_V1_translated.csv'
 filepath = folder + filename
 df_main = pd.read_csv(filepath)
 
