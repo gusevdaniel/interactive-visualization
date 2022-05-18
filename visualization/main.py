@@ -140,4 +140,4 @@ fields = column(row(inputs, series), sizing_mode="scale_both")
 update()  # initial load of the data
 
 curdoc().add_root(fields)
-curdoc().title = "OpenEA"
+curdoc().title = filename
