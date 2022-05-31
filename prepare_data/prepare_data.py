@@ -115,8 +115,8 @@ if __name__ == '__main__':
 
     source_folderpath = 'C:\\my-data\\EN_RU_15K\\EN_RU_15K_V1\\'
 
-    results_folderpath = 'C:\\my-data\\output\\results\\MultiKE\\EN_RU_15K_V1\\631\\20220305043056\\'
-    data_filename = 'MultiKE_EN_RU_15K_V1_swvg'
+    results_folderpath = 'C:\\my-data\\output\\results\\RDGCN\\EN_RU_15K_V1\\631\\20220408120943\\'
+    data_filename = 'RDGCN_EN_RU_15K_V1_labse'
 
     df = prepare_data(source_folderpath, results_folderpath, in_types_1, in_types_2)
 
